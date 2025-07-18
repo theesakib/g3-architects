@@ -131,6 +131,39 @@
 .img-2{
     width: 100%;
 }
+.last-section{
+    max-width: 1370px;
+    margin: 50px auto;
+}
+.card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.control{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer{
+    text-align: center;
+    margin: 100px 100px;
+}
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 50px;
+}
+.footer-end{
+    background-color:rgba(255, 244, 231, 1) ;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
 @media screen and (max-width:576px) {
     .navbar,
     .link li,
